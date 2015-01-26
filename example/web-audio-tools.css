@@ -1,0 +1,31 @@
+g text {
+  font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+  fill: #333;
+}
+
+#graph {
+  width: 100%;
+  height: 600px;
+}
+
+g.audionode rect {
+  fill: #eee;
+  stroke: #ccc;
+}
+
+g.edgePaths path {
+  stroke: #aaa;
+  fill: transparent;
+}
+
+g.edgeLabel rect {
+  fill: transparent;
+}
+
+g.edgePath path {
+  stroke: #aaa;
+}
+
+g.edgePath.param-connection {
+  stroke-dasharray: 5,5;
+}
